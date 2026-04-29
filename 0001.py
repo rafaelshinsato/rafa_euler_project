@@ -6,5 +6,9 @@ def sum_multiple_of_two_numbers_less_than_x(a,b,x):
             sum = sum + i
     return sum
 
-print(sum_multiple_of_two_numbers_less_than_x(3, 5, 1000))  # Print out the sum of multiples of 3 and 5 less than 1000
+def sum_divisible_by_n(n, target):
+    p = target // n
+    return n * (p * (p + 1)) // 2
 
+print(sum_multiple_of_two_numbers_less_than_x(3, 5, 1000))  # Print out the sum of multiples of 3 and 5 less than 1000
+print(sum_divisible_by_n(3, 999) + sum_divisible_by_n(5, 999) - sum_divisible_by_n(15, 999))
