@@ -1,2 +1,3 @@
 [Euler Project](https://projecteuler.net)
-Math
+
+Try to learn here.
